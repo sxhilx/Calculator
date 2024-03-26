@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> C A L C U L A T O R </h1>
+  <div class="container" >
+    
+    <form name="forms">
+      
+      <div class = 'calc'>
+        
+        <table>
+          
+          <tr>
+            <td colspan="3"><input type="text" name="output" id="answer" readonly></td>
+            <td><input class ='clear' type="button" value=" C " onclick="forms.output.value=''"></td>
+          </tr>
+
+          <tr>
+            <td><input class='span' type="button" value=" 1 " onclick="forms.output.value+='1'"></td>
+            <td><input class='span' type="button" value=" 2 " onclick="forms.output.value+='2'"></td>
+            <td><input class='span' type="button" value=" 3 " onclick="forms.output.value+='3'"></td>
+            <td><input class='no-span' type="button" value=" / " onclick="forms.output.value+='/'"></td>
+          </tr>
+
+          <tr>
+            <td><input class='span' type="button" value=" 4 " onclick="forms.output.value+='4'"></td>
+            <td><input class='span' type="button" value=" 5 " onclick="forms.output.value+='5'"></td>
+            <td><input class='span' type="button" value=" 6 " onclick="forms.output.value+='6'"></td>
+            <td><input class='no-span' type="button" value=" - " onclick="forms.output.value+='-'"></td>
+          </tr>
+        
+          <tr>
+            <td><input class='span' type="button" value=" 7 " onclick="forms.output.value+='7'"></td>
+            <td><input class='span' type="button" value=" 8 " onclick="forms.output.value+='8'"></td>
+            <td><input class='span' type="button" value=" 9 " onclick="forms.output.value+='9'"></td>
+            <td><input class='no-span' type="button" value=" + " onclick="forms.output.value+='+'"></td>
+          </tr>
+        
+          <tr>
+            <td><input class='span' type="button" value=" . "onclick="forms.output.value+='.'"></td>
+            <td><input class='span' type="button" value=" 0 " onclick="forms.output.value+='0'"></td>
+            <td><input class='equals-to' type="button" value=" = " onclick="forms.output.value = eval(forms.output.value)"></td>
+            <td><input class='no-span' type="button" value=" * " onclick="forms.output.value+='*'"></td>
+          </tr>       
+        
+        </table>
+
+      </div>
+    </form>
+  </div>
+</body>
+</html>

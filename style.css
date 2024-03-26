@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+  margin: 0;
+  background-color: #3c6e71;
+}
+
+h1{
+  text-align: center;
+  font-family: 'orbitron';
+  font-weight: bold;
+  font-size: larger;
+  color: #eff6e0;
+  margin-top: 50px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+.calc{
+  height: 255px;
+  width: 290px;
+  background: rgb(36, 35, 35);
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 50px;
+  box-shadow: inset 0px 0px 5px;
+  
+}
+
+#answer{
+  background: rgb(230, 215, 215);
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  padding-right: 0;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  border: solid black 0.5px;
+  font-size: 18px;
+}
+
+.clear{
+  height: 33px;
+  width: 30px;
+  color: white;
+  background-color: red;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: solid black 0.5px;
+  cursor: pointer;
+}
+
+.clear:hover{
+  background-color: black;
+}
+
+.span{
+  background-color: rgb(27, 182, 27);
+  width: 80px;
+  height: 35px;
+  color: white;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: solid black 0.5px;
+  cursor: pointer;
+}
+
+.span:hover{
+  background-color: #52796f;
+
+}
+
+.equals-to{
+  background-color: red;
+  width: 80px;
+  height: 35px;
+  color: white;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: solid black 0.5px;
+  cursor: pointer;
+}
+
+.equals-to:hover{
+  background-color: black;
+}
+
+.no-span{
+  background-color: rgb(27, 182, 27);
+  color: white;
+  height: 35px;
+  width: 30px;
+  margin-bottom: 15px;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  border-radius: 5px;
+  border: solid black 0.5px;
+  cursor: pointer;
+}
+
+.no-span:hover{
+  background-color: #52796f;
+}
+
+
+
